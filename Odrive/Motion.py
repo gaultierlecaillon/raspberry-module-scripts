@@ -10,7 +10,7 @@ import math
 class Motion:
 
     cpr = 8192
-    cpr_error_tolerance = 100
+    cpr_error_tolerance = 500
 
     def __init__(self):
         self.initOdrive()
